@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.menu
+{
+    position: fixed;
+    left: 0;
+    top: 250px;
+    z-index: 200px;
+}
+.menu ul
+{
+    list-style: none;
+}
+.menu ul li a
+{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 5px 10px;
+    font-size: 0.5em;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.menu ul li .inicio{background:darkblue ;}
+.menu ul li .fi1{background:teal ;}
+.menu ul li .fi2{background: tomato;}
+.menu ul li .fi3{background: indianred;}
+
+.menu ul li a:hover
+{
+    padding: 10px 30px;
+    font-size: 1.2em;
+    background: #000;
+}
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+
+background-image: url(/assets/img/R.jpg);
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size: cover;
+color : #ffffff;
+}
+.nave
+{
+    list-style: none;
+    padding: 0PX;
+    background: #092327;
+    max-width: 455px;
+    margin: auto;
+}
+.nave li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.nave li
+{
+    display: inline-block;
+    text-align: center;
+}
+.nave li a:hover
+{
+    background: #ef8354;
+}
+h1
+{
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+    color: red;
+}
+.img-logo
+{
+    width: 150px;
+}
+.img-inicial
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.ejemplo-area
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.ejemplo-figuras
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.ejemplo-perimetro
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.ejemplo-pentagono
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.ejemplo-rombo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.ejemplo-trapecio
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.fondo
+{
+   background: fixed;
+}
+form
+{
+    background-color: rgb(5, 70, 70);text-align: center;font-size: medium;
+}
+text
+{
+    font-family: "Open Sans", sans-serif; 
+}
+input
+{
+    width: 27%;padding: 6px 10px;margin: 8px 4px; box-sizing: border-box; text-align: center;
+}
+body 
+{
+    width: 800px;
+    margin: auto;
+    background-color: #f8dfbb6c;
+    padding:  20px 20px 20px;
+    border: 0px;
+}
